@@ -1,7 +1,7 @@
 function getFormvalue() {
     //Write your code here
-	let submit=document.getElementByTag('input')[2].value;
-	submit.addEventListener("click",(event)=>{
+	let from=document.getElementById('form1');
+	from.addEventListener("submit",(event)=>{
 		event.preventDefault();
 		let firstName=document.getElementByTag('input')[0].value;
 		let LastName=document.getElementByTag('input')[1].value;
